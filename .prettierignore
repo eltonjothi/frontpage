@@ -1,0 +1,4 @@
+node_modules/*
+.next/*
+scss/bootstrap/*
+scss/partials/_progress-circle.scss

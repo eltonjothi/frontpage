@@ -4,15 +4,15 @@
 // $body-bg: #000;
 
 // @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
 
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/grid";
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/grid';
 
 body {
-  &[data-theme="dark"] {
+  &[data-theme='dark'] {
     background-color: #111;
     color: #eee;
   }

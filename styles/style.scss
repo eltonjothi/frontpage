@@ -16,3 +16,27 @@ body {
     color: #eee;
   }
 }
+.resume-body{
+  margin-top: 20px;
+}
+.intro {
+  display: flex;
+  margin-bottom: 10px;
+  .avatar {
+    width: 100px;
+    margin-right: 10px;
+    .profile-avatar {
+      max-width: 100px;
+      margin-right: 3px;
+      border-radius: 10px;
+    }
+  }
+  .details{
+    h2{
+      margin-bottom: 0;
+    }
+    h3{
+      margin-bottom: 0;
+    }
+  }
+}

@@ -2,13 +2,25 @@ import '../styles/style.scss';
 
 function HomePage() {
   return (
-    <div class="container">
+    <div class="container resume-body">
       <div class="row">
         <div class="col-md-4">
           <div class="row">
             <div class="col-12">
-              <h2>Elton Jothi</h2>
-              <h3>Front End Engineer</h3>
+              <div class="intro">
+                <div class="avatar">
+                  <img
+                    src="/images/elton-avatar.jpeg"
+                    class="profile-avatar"
+                    alt="..."
+                  />
+                </div>
+                <div class="details">
+                  <h2>Elton Jothi</h2>
+                  <h3>Front End Engineer</h3>
+                  <p>Kuala Lumpur, Malaysia</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row">

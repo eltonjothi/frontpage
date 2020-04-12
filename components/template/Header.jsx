@@ -1,19 +1,25 @@
 import React from 'react';
+import Link from 'next/link';
 
 function Header() {
   return (
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Resume
-              </a>
+              <Link href="/">
+                <a class="nav-link">/home</a>
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link href="/resume">
+                <a class="nav-link">/resume</a>
+              </Link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Blog
+                /blog
               </a>
             </li>
             <li class="nav-item">
@@ -23,7 +29,7 @@ function Header() {
                 tabindex="-1"
                 aria-disabled="true"
               >
-                Contact
+                /contact
               </a>
             </li>
           </ul>

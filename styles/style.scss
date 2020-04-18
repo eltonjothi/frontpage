@@ -50,6 +50,11 @@ body {
     }
   }
 }
+// @media (min-width: 768px) {
+// .container, .container-sm, .container-md {
+//     max-width: 540px;
+// }
+// }
 
 .navbar {
   background-color: #232526;
@@ -59,7 +64,7 @@ body {
   }
 }
 .mobile-navbar {
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: none;
   }
   // #202020

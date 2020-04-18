@@ -4,7 +4,7 @@ function Main() {
   return (
     <div class="container resume-body">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div className="leftbox">
             <div class="row">
               <div class="col-12">
@@ -49,7 +49,7 @@ function Main() {
             </div>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-lg-8">
           <div className="mainbox">
             <div class="row">
               <div class="col-12">

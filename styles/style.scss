@@ -4,6 +4,14 @@
 // $body-bg: #000;
 
 // @import "../node_modules/bootstrap/scss/bootstrap";
+$color-grey-30: #a0a0a0;
+$color-grey-50: #777777;
+$color-grey-70: #4A4A4A;
+$color-grey-80: #373737;
+$color-grey-90: #282828;
+$color-grey-100: #1C1C1C;
+$color-maroon: #fff;
+
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
 @import '../node_modules/bootstrap/scss/mixins';
@@ -11,14 +19,38 @@
 @import '../node_modules/bootstrap/scss/grid';
 @import '../node_modules/bootstrap/scss/navbar';
 @import '../node_modules/bootstrap/scss/utilities';
+@import './home';
+@import './resume';
 
 body {
   font-family: 'Inter', sans-serif;
   &[data-theme='dark'] {
     background-color: #17181a;
     color: #e4e6eb;
+    .grey-30{
+      color: $color-grey-30;
+    }
+    .grey-50{
+      color: $color-grey-50;
+    }
+    .grey-70{
+      color: $color-grey-70;
+    }
+    .maroon{
+      color: $color-maroon;
+    }
+    .ft-200{
+      font-weight: 200;
+    }
+    .ft-400{
+      font-weight: 400;
+    }
+    .ft-600{
+      font-weight: 600;
+    }
   }
 }
+
 .navbar {
   background-color: #232526;
   padding: 10px 0;
@@ -30,6 +62,7 @@ body {
   @include media-breakpoint-up(md) {
     display: none;
   }
+  // #202020
   background-color: #232526;
   bottom: 0;
   height: 65px;
@@ -58,66 +91,4 @@ body {
     }
   }
 }
-.resume-body {
-  margin-top: 10px;
-}
-.intro {
-  display: flex;
-  margin-bottom: 10px;
-  .avatar {
-    width: 100px;
-    margin-right: 10px;
-    .profile-avatar {
-      max-width: 100px;
-      margin-right: 3px;
-      border-radius: 10px;
-    }
-  }
-  .details {
-    h2 {
-      margin-bottom: 0;
-    }
-    h3 {
-      margin-bottom: 0;
-    }
-  }
-}
-.home {
-  .intro-hero {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    // align-items: center;
-    @include media-breakpoint-down(md) {
-      margin: 0;
-    }
-    .avatar {
-      width: 300px;
-      margin-right: 30px;
-      @include media-breakpoint-down(md) {
-        width: auto;
-        margin: 20px auto;
-      }
-      .profile-avatar {
-        max-width: 100%;
-        margin-right: 3px;
-        border-radius: 10px;
-      }
-    }
-    .details {
-      max-width: 400px;
-      h2 {
-        font-size: 32px;
-        margin-bottom: 0;
-      }
-      h3 {
-        font-size: 24px;
-        margin-bottom: 0;
-      }
-      p {
-        font-size: 18px;
-        margin-bottom: 0;
-      }
-    }
-  }
-}
+

@@ -1,0 +1,44 @@
+.resume {
+  .resume-body {
+    margin-top: 30px;
+    .leftbox {
+      background-color: #222526;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .mainbox {
+      background-color: #222526;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  }
+  .intro {
+    display: flex;
+    margin-bottom: 20px;
+    .avatar {
+      width: 80px;
+      margin-right: 15px;
+      .profile-avatar {
+        max-width: 80px;
+        margin-right: 3px;
+        border-radius: 10px;
+      }
+    }
+    .details {
+      h2 {
+        // margin-top: 10px;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 4px;
+      }
+      h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 4px;
+      }
+      p{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

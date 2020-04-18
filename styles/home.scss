@@ -1,0 +1,39 @@
+.home {
+  .intro-hero {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    // align-items: center;
+    @include media-breakpoint-down(md) {
+      margin: 0;
+    }
+    .avatar {
+      width: 300px;
+      margin-right: 30px;
+      @include media-breakpoint-down(md) {
+        width: auto;
+        margin: 20px auto;
+      }
+      .profile-avatar {
+        max-width: 100%;
+        margin-right: 3px;
+        border-radius: 10px;
+      }
+    }
+    .details {
+      max-width: 400px;
+      h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-size: 24px;
+        margin-bottom: 0;
+      }
+      p {
+        font-size: 18px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

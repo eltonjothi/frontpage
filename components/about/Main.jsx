@@ -15,15 +15,15 @@ function Main() {
             </div>
             <div class="details">
               <h2>Hey there.! 👋</h2>
-              <p>
+              <p className="ft-200 grey-30">
                 My name is Elton Jothi. I’m an experienced, passionate,
                 well-rounded frontend engineer with full stack capabilities and
                 an eye for design.
               </p>
               <br />
-              <p>
-                Currenty at EdgeProp.my, building beautiful user interfaces with
-                a focus on performance and Search Engine Optimizations.
+              <p className="ft-200 grey-30">
+                Currently at EdgeProp.my, building beautiful user interfaces with
+                a focus on performance and writing code with best practices.
               </p>
             </div>
           </div>

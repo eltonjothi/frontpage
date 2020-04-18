@@ -14,13 +14,17 @@ function Main() {
               />
             </div>
             <div class="details">
-              <h2>Hey..! 👋</h2>
+              <h2>Hey there.! 👋</h2>
               <p>
-                My name’s Elton Jothi. I’m a creative, ambitious, and
-                enterprising software engineer.
+                My name is Elton Jothi. I’m an experienced, passionate,
+                well-rounded frontend engineer with full stack capabilities and
+                an eye for design.
               </p>
               <br />
-              <p>Enjoy building websites, and playing music in my free time.</p>
+              <p>
+                Currenty at EdgeProp.my, building beautiful user interfaces with
+                a focus on performance and Search Engine Optimizations.
+              </p>
             </div>
           </div>
         </div>

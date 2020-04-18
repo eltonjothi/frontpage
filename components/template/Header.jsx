@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function Header() {
   return (
-    <div className="container">
+    <div className="navbar-container">
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">

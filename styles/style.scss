@@ -20,6 +20,7 @@ body {
   }
 }
 .navbar {
+  background-color: #232526;
   padding: 10px 0;
   @include media-breakpoint-down(md) {
     display: none;

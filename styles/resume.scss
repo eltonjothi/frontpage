@@ -1,6 +1,10 @@
 .resume {
   .resume-body {
     margin-top: 30px;
+    @include media-breakpoint-down(md) {
+      margin-top: 20px;
+      margin-bottom: 70px;
+    }
     .leftbox {
       background-color: #222526;
       padding: 20px;

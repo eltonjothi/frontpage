@@ -1,4 +1,7 @@
 .home {
+  @include media-breakpoint-down(md) {
+    margin-bottom: 70px;
+  }
   .intro-hero {
     margin-top: 50px;
     display: flex;

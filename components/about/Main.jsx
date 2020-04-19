@@ -10,7 +10,7 @@ function Main() {
               <img
                 src="/images/elton-avatar-3.jpg"
                 className="profile-avatar"
-                alt="..."
+                alt="Elton Jothi"
               />
             </div>
             <div className="details">

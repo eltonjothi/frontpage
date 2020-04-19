@@ -19,9 +19,9 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  /contact
-                </a>
+                <Link href="/contact">
+                  <a className="nav-link">/contact</a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -41,7 +41,7 @@ function Header() {
             </Link>
           </div>
           <div className="mobile-navbar-item">
-            <Link href="/">
+            <Link href="/contact">
               <a>/contact</a>
             </Link>
           </div>

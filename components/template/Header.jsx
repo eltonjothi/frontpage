@@ -30,21 +30,16 @@ function Header() {
       </nav>
       <nav className="mobile-navbar">
         <div className="mobile-navbar-container">
-          <div className="mobile-navbar-item">
-            <Link href="/">
-              <a>/home</a>
-            </Link>
-          </div>
-          <div className="mobile-navbar-item">
-            <Link href="/resume">
-              <a>/resume</a>
-            </Link>
-          </div>
-          <div className="mobile-navbar-item">
-            <Link href="/contact">
-              <a>/contact</a>
-            </Link>
-          </div>
+          <Link href="/">
+            <a className="mobile-navbar-item">/home</a>
+          </Link>
+          <Link href="/resume">
+            <a className="mobile-navbar-item">/resume</a>
+          </Link>
+          <Link href="/contact">
+            <a className="mobile-navbar-item">/contact</a>
+          </Link>
+
           {/* <div className="mobile-navbar-item">
             <Link href="/">
               <a>/blog</a>

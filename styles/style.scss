@@ -6,10 +6,10 @@
 // @import "../node_modules/bootstrap/scss/bootstrap";
 $color-grey-30: #a0a0a0;
 $color-grey-50: #777777;
-$color-grey-70: #4A4A4A;
+$color-grey-70: #4a4a4a;
 $color-grey-80: #373737;
 $color-grey-90: #282828;
-$color-grey-100: #1C1C1C;
+$color-grey-100: #1c1c1c;
 $color-maroon: #fff;
 
 @import '../node_modules/bootstrap/scss/functions';
@@ -27,25 +27,25 @@ body {
   &[data-theme='dark'] {
     background-color: #17181a;
     color: #e4e6eb;
-    .grey-30{
+    .grey-30 {
       color: $color-grey-30;
     }
-    .grey-50{
+    .grey-50 {
       color: $color-grey-50;
     }
-    .grey-70{
+    .grey-70 {
       color: $color-grey-70;
     }
-    .maroon{
+    .maroon {
       color: $color-maroon;
     }
-    .ft-200{
+    .ft-200 {
       font-weight: 200;
     }
-    .ft-400{
+    .ft-400 {
       font-weight: 400;
     }
-    .ft-600{
+    .ft-600 {
       font-weight: 600;
     }
   }
@@ -91,9 +91,28 @@ body {
     justify-content: center;
     flex: 1 1 0;
     padding: 0 2px;
-    a{
-      color:#b0b3b8;
+    a {
+      color: #b0b3b8;
     }
   }
 }
 
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 1.5em 0;
+  li {
+    display: inline-block;
+    margin-right: 1em;
+    a {
+      display: inline-block;
+      height: 32px;
+      width: 32px;
+      svg{
+        path{
+          fill: #a0a0a0;
+        }
+      }
+    }
+  }
+}

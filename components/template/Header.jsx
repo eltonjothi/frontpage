@@ -29,7 +29,7 @@ function Header() {
                 tabindex="-1"
                 aria-disabled="true"
               >
-                /contact
+                (dark)
               </a>
             </li>
           </ul>

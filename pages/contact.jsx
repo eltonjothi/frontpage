@@ -17,8 +17,8 @@ function Contact() {
         openGraph={{
           type: 'website',
           url: 'https://eltu.in/contact',
-          title: { title },
-          description: { desc },
+          title,
+          description: desc,
           images: [
             {
               url: 'https://eltu.in/images/elton-avatar-3.jpg',

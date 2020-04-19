@@ -17,8 +17,8 @@ function Resume() {
         openGraph={{
           type: 'website',
           url: 'https://eltu.in/resume',
-          title: { title },
-          description: { desc },
+          title,
+          description: desc,
           images: [
             {
               url: 'https://eltu.in/images/elton-avatar-3.jpg',

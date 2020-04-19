@@ -61,7 +61,7 @@ function Main() {
                 <ul className="list-group list-group-flush ft-200 grey-30">
                   <li className="list-group-item">
                     Translation of designer mock-ups and wireframes into
-                    front-end code using mordern technologies.
+                    front-end code using modern technologies.
                   </li>
                   <li className="list-group-item">
                     Pre rendering the pages by server side rendering for faster

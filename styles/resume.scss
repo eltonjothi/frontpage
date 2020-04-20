@@ -22,6 +22,12 @@
     display: flex;
     margin-bottom: 20px;
     .avatar {
+      @include media-breakpoint-down(lg) {
+        display: none;
+      }
+      @include media-breakpoint-down(md) {
+        display: block;
+      }
       width: 80px;
       margin-right: 15px;
       .profile-avatar {
@@ -42,7 +48,7 @@
         line-height: 24px;
         margin-bottom: 4px;
       }
-      p{
+      p {
         margin-bottom: 0;
       }
     }

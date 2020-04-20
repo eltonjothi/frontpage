@@ -110,11 +110,45 @@ body {
       display: inline-block;
       height: 32px;
       width: 32px;
-      svg{
-        path{
+      svg {
+        path {
           fill: #a0a0a0;
         }
       }
     }
   }
+}
+@media print {
+  body {
+    margin: 0;
+  }
+  .navbar,
+  .mobile-navbar {
+    display: none;
+  }
+  .resume {
+    .resume-body {
+      margin-top: 0;
+    }
+    .mainbox{
+      padding: 0!important;
+    }
+  }
+  .leftbox{
+    padding: 0!important;
+  }
+  h3{
+    font-size: 16px;
+  }
+  h4{
+    font-size: 14px;
+
+  }
+  p{
+    font-size: 13px;
+  }
+  li{
+    font-size: 13px;
+  }
+
 }

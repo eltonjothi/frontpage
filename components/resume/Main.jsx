@@ -129,8 +129,6 @@ function Main() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="row">
               <div className="col-12">
                 <h3 className="ft-600 maroon">Education</h3>
                 <h4 className="ft-400 grey-30">ICAT Design & Media College</h4>

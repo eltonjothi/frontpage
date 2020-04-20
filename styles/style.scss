@@ -121,6 +121,18 @@ body {
 @media print {
   body {
     margin: 0;
+    .grey-30 {
+      color: $color-grey-70 !important;
+    }
+    .grey-50 {
+      color: $color-grey-50 !important;
+    }
+    .grey-70 {
+      color: $color-grey-30 !important;
+    }
+    .maroon {
+      color: #373737 !important;
+    }
   }
   .navbar,
   .mobile-navbar {
@@ -130,25 +142,33 @@ body {
     .resume-body {
       margin-top: 0;
     }
-    .mainbox{
-      padding: 0!important;
+    .mainbox {
+      padding: 0 !important;
     }
   }
-  .leftbox{
-    padding: 0!important;
+  .leftbox {
+    padding: 0 !important;
   }
-  h3{
+  h3 {
     font-size: 16px;
   }
-  h4{
+  h4 {
     font-size: 14px;
-
   }
-  p{
+  p {
     font-size: 13px;
   }
-  li{
+  li {
     font-size: 13px;
   }
-
+}
+@media print and (orientation: portrait) {
+  .resume {
+    .resume-body {
+      .avatar {
+        display: none !important;
+      }
+    }
+  }
+  /* Your code for portrait orientation */
 }

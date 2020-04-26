@@ -118,6 +118,9 @@ body {
     }
   }
 }
+.only-print{
+  display: none;
+}
 @media print {
   body {
     margin: 0;
@@ -160,6 +163,9 @@ body {
   }
   li {
     font-size: 13px;
+  }
+  .only-print{
+    display: block;
   }
 }
 @media print and (orientation: portrait) {

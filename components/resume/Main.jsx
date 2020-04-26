@@ -24,12 +24,18 @@ function Main() {
                 </div>
               </div>
             </div>
+            <div className="row only-print">
+              <div className="col-12">
+                <p className="ft-200 grey-30 mb-0">Email: elton.jj@gmail.com</p>
+                <p className="ft-200 grey-30 mb-0">Website: <a href="https://eltu.in/">eltu.in</a></p>
+                <p className="ft-200 grey-30">Phone: <a href="https://wa.me/60172634100">+60-172634100</a></p>
+              </div>
+            </div>
             <div className="row">
               <div className="col-12">
                 <p className="ft-200 grey-30">
-                  To work with a team where I can utilize my skills, knowledge,
-                  ideas and contribute to the development of new technologies
-                  and products as a software developer.
+                  Experienced, passionate, well-rounded frontend engineer with
+                  full stack capabilities and an eye for design.
                 </p>
               </div>
             </div>

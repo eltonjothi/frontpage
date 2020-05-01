@@ -63,6 +63,9 @@ body {
   @include media-breakpoint-down(md) {
     display: none;
   }
+  .nav-item {
+    margin: 0 20px;
+  }
 }
 .mobile-navbar {
   @include media-breakpoint-up(lg) {
@@ -96,6 +99,9 @@ body {
     a {
       color: #b0b3b8;
     }
+    &.active {
+      color: #fff;
+    }
   }
 }
 
@@ -118,7 +124,7 @@ body {
     }
   }
 }
-.only-print{
+.only-print {
   display: none;
 }
 @media print {
@@ -164,7 +170,7 @@ body {
   li {
     font-size: 13px;
   }
-  .only-print{
+  .only-print {
     display: block;
   }
 }

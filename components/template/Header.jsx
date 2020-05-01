@@ -1,26 +1,41 @@
 import React from 'react';
 import Link from 'next/link';
+import { withRouter } from 'next/router';
 
-function Header() {
+function Header({ router }) {
   return (
     <>
       <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
         <div className="container">
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">
-              <li className="nav-item active">
+              <li
+                className={
+                  router.pathname === '/' ? 'nav-item active' : 'nav-item'
+                }
+              >
                 <Link href="/">
-                  <a className="nav-link">/home</a>
+                  <a className="nav-link">Home</a>
                 </Link>
               </li>
-              <li className="nav-item active">
+              <li
+                className={
+                  router.pathname === '/resume' ? 'nav-item active' : 'nav-item'
+                }
+              >
                 <Link href="/resume">
-                  <a className="nav-link">/resume</a>
+                  <a className="nav-link">Resume</a>
                 </Link>
               </li>
-              <li className="nav-item active">
+              <li
+                className={
+                  router.pathname === '/contact'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
                 <Link href="/contact">
-                  <a className="nav-link">/contact</a>
+                  <a className="nav-link">Contact</a>
                 </Link>
               </li>
             </ul>
@@ -31,13 +46,37 @@ function Header() {
       <nav className="mobile-navbar">
         <div className="mobile-navbar-container">
           <Link href="/">
-            <a className="mobile-navbar-item">/home</a>
+            <a
+              className={
+                router.pathname === '/'
+                  ? 'mobile-navbar-item active'
+                  : 'mobile-navbar-item'
+              }
+            >
+              Home
+            </a>
           </Link>
           <Link href="/resume">
-            <a className="mobile-navbar-item">/resume</a>
+            <a
+              className={
+                router.pathname === '/resume'
+                  ? 'mobile-navbar-item active'
+                  : 'mobile-navbar-item'
+              }
+            >
+              Resume
+            </a>
           </Link>
           <Link href="/contact">
-            <a className="mobile-navbar-item">/contact</a>
+            <a
+              className={
+                router.pathname === '/contact'
+                  ? 'mobile-navbar-item active'
+                  : 'mobile-navbar-item'
+              }
+            >
+              Contact
+            </a>
           </Link>
 
           {/* <div className="mobile-navbar-item">
@@ -51,4 +90,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default withRouter(Header);

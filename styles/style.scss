@@ -28,6 +28,20 @@ body {
   background-color: #f1f2f5;
   color: #17181a;
   min-height: 100vh;
+  .light{
+    .grey-30 {
+      color: #777777;
+    }
+    .grey-50 {
+      color: $color-grey-50;
+    }
+    .grey-70 {
+      color: $color-grey-30;
+    }
+    .maroon {
+      color: #1877f2;
+    }
+  }
   .dark {
     background-color: #17181a;
     color: #e4e6eb;
@@ -63,6 +77,16 @@ body {
           .nav-link {
             color: #fff;
           }
+        }
+      }
+    }
+    .resume {
+      .resume-body {
+        .leftbox {
+          background-color: #222526;
+        }
+        .mainbox {
+          background-color: #222526;
         }
       }
     }

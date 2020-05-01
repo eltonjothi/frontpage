@@ -70,8 +70,7 @@ function Main() {
                 <h5 className="ft-400 grey-30">Aug 2018 - Present</h5>
                 <ul className="list-group list-group-flush ft-200 grey-30">
                   <li className="list-group-item">
-                    Migrated the web application from PHP to 
-                    Developed the entire website from a scratch using React.
+                    Developed the web application from a scratch using React.
                   </li>
                   <li className="list-group-item">
                     Reducing the bundle size and lazy loading modules to improve

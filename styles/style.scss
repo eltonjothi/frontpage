@@ -7,9 +7,6 @@
 $color-grey-30: #a0a0a0;
 $color-grey-50: #777777;
 $color-grey-70: #4a4a4a;
-$color-grey-80: #373737;
-$color-grey-90: #282828;
-$color-grey-100: #1c1c1c;
 $color-maroon: #fff;
 
 @import '../node_modules/bootstrap/scss/functions';
@@ -19,6 +16,9 @@ $color-maroon: #fff;
 @import '../node_modules/bootstrap/scss/grid';
 @import '../node_modules/bootstrap/scss/navbar';
 @import '../node_modules/bootstrap/scss/utilities';
+@import './custom-nav';
+@import './social-icons';
+@import './print';
 @import './home';
 @import './resume';
 @import './contact';
@@ -50,137 +50,4 @@ body {
       font-weight: 600;
     }
   }
-}
-// @media (min-width: 768px) {
-// .container, .container-sm, .container-md {
-//     max-width: 540px;
-// }
-// }
-
-.navbar {
-  background-color: #232526;
-  padding: 10px 0;
-  @include media-breakpoint-down(md) {
-    display: none;
-  }
-  .nav-item {
-    margin: 0 20px;
-  }
-}
-.mobile-navbar {
-  @include media-breakpoint-up(lg) {
-    display: none;
-  }
-  // #202020
-  background-color: #232526;
-  bottom: 0;
-  height: 65px;
-  left: 0;
-  position: fixed;
-  right: 0;
-  z-index: 100;
-  border-top: 2px solid #353738;
-  overflow: hidden;
-  &-container {
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    margin: 0 auto;
-  }
-  &-item {
-    color: #b0b3b8;
-    align-items: center;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1 1 0;
-    padding: 0 2px;
-    a {
-      color: #b0b3b8;
-    }
-    &.active {
-      color: #fff;
-    }
-  }
-}
-
-.social-links {
-  list-style-type: none;
-  padding: 0;
-  margin: 1.5em 0;
-  li {
-    display: inline-block;
-    margin-right: 1em;
-    a {
-      display: inline-block;
-      height: 32px;
-      width: 32px;
-      svg {
-        path {
-          fill: #a0a0a0;
-        }
-      }
-    }
-  }
-}
-.only-print {
-  display: none;
-}
-@media print {
-  body {
-    margin: 0;
-    .grey-30 {
-      color: $color-grey-70 !important;
-    }
-    .grey-50 {
-      color: $color-grey-50 !important;
-    }
-    .grey-70 {
-      color: $color-grey-30 !important;
-    }
-    .maroon {
-      color: #373737 !important;
-    }
-  }
-  .navbar,
-  .mobile-navbar {
-    display: none;
-  }
-  .resume {
-    .resume-body {
-      margin-top: 0;
-    }
-    .mainbox {
-      padding: 0 !important;
-    }
-  }
-  .leftbox {
-    padding: 0 !important;
-  }
-  h3 {
-    font-size: 16px;
-  }
-  h4 {
-    font-size: 14px;
-  }
-  p {
-    font-size: 13px;
-  }
-  li {
-    font-size: 13px;
-  }
-  .only-print {
-    display: block;
-  }
-}
-@media print and (orientation: portrait) {
-  .resume {
-    .resume-body {
-      .avatar {
-        display: none !important;
-      }
-    }
-  }
-  /* Your code for portrait orientation */
 }

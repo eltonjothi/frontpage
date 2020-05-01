@@ -81,10 +81,10 @@ function Main() {
                     friendly URL’s on the listings pages and improving initial
                     page load by Server Side Rendering (SSR).
                   </li>
-                  {/* <li className="list-group-item">
-                    Developed a custom server-less image handler using AWS to
-                    handle watermarks and reduce the image sizes.
-                  </li> */}
+                  <li className="list-group-item">
+                    Developed custom server-less image handler using AWS to
+                    handle watermarks and sizes.
+                  </li>
                   <li className="list-group-item">
                     Maintaining standard code style with shareable configs using
                     ESLint and Prettier within the project to improve the

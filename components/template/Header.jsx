@@ -5,7 +5,7 @@ import { withRouter } from 'next/router';
 function Header({ router }) {
   return (
     <>
-      <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
+      <nav className="navbar sticky-top navbar-expand-lg">
         <div className="container">
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">

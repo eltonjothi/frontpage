@@ -1,11 +1,19 @@
 .navbar {
-  background-color: #232526;
+  background-color: #fff;
   padding: 10px 0;
   @include media-breakpoint-down(md) {
     display: none;
   }
   .nav-item {
     margin: 0 20px;
+    .nav-link {
+      color: #b0b3b8;
+    }
+    &.active {
+      .nav-link {
+        color: #000;
+      }
+    }
   }
 }
 .mobile-navbar {

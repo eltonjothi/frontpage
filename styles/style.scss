@@ -25,6 +25,8 @@ $color-maroon: #fff;
 
 body {
   font-family: 'Inter', sans-serif;
+  background-color: #f1f2f5;
+  color: #17181a;
   &[data-theme='dark'] {
     background-color: #17181a;
     color: #e4e6eb;
@@ -48,6 +50,19 @@ body {
     }
     .ft-600 {
       font-weight: 600;
+    }
+    .navbar {
+      background-color: #232526;
+      .nav-item {
+        .nav-link {
+          color: #b0b3b8;
+        }
+        &.active {
+          .nav-link {
+            color: #fff;
+          }
+        }
+      }
     }
   }
 }

@@ -67,10 +67,11 @@ function Main() {
                 <h4 className="ft-400 grey-30">
                   EdgeProp.my / Frontend Engineer
                 </h4>
-                <h5 className="ft-400 grey-30">2018 - Present</h5>
+                <h5 className="ft-400 grey-30">Aug 2018 - Present</h5>
                 <ul className="list-group list-group-flush ft-200 grey-30">
                   <li className="list-group-item">
-                    Developing the entire website from a scratch using React.
+                    Migrated the web application from PHP to 
+                    Developed the entire website from a scratch using React.
                   </li>
                   <li className="list-group-item">
                     Reducing the bundle size and lazy loading modules to improve
@@ -94,20 +95,16 @@ function Main() {
                     Wrote support documentation and provided training to the
                     team internally.
                   </li>
-                  <li className="list-group-item">
-                    Managed project development through version control systems.
-                  </li>
                 </ul>
               </div>
               <div className="col-12">
                 <h4 className="ft-400 grey-30">
                   OpenTech Software / Web Developer
                 </h4>
-                <h5 className="ft-400 grey-30">2016 - 2018</h5>
+                <h5 className="ft-400 grey-30">Nov 2016 - Aug 2018</h5>
                 <ul className="list-group list-group-flush ft-200 grey-30">
                   <li className="list-group-item">
-                    Developed websites for small buisnesses using wordpress and
-                    JAMstack.
+                    Developed websites for small buisnesses.
                   </li>
                   <li className="list-group-item">
                     Managed hosting through AWS and helped securing the
@@ -116,9 +113,6 @@ function Main() {
                   <li className="list-group-item">
                     Created custom plugins and integrated the web application
                     with marketing solutions.
-                  </li>
-                  <li className="list-group-item">
-                    Increasing website performance using SEO best practices.
                   </li>
                   {/* <li className="list-group-item">
                     Marketing Strategies that resulted in 40% increase in sales
@@ -130,16 +124,13 @@ function Main() {
                 <h4 className="ft-400 grey-30">
                   Navodaya Media Works / Software Engineer
                 </h4>
-                <h5 className="ft-400 grey-30">2014 - 2015</h5>
+                <h5 className="ft-400 grey-30">Sept 2014 - Oct 2015</h5>
                 <ul className="list-group list-group-flush ft-200 grey-30">
                   <li className="list-group-item">
-                    Developed web portal for showcasing games using PHP.
+                    Developed website portal for showcasing games using PHP.
                   </li>
                   <li className="list-group-item">
-                    Developed mobile games using cocos2dx and unity3d.
-                  </li>
-                  <li className="list-group-item">
-                    Administration and management of a hosting environment.
+                    Developed mobile games using Cocos2d-x and Unity3D.
                   </li>
                 </ul>
               </div>

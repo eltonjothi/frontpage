@@ -18,7 +18,7 @@ function Main() {
                   </div>
                   <div className="details">
                     <h2 className="ft-600 maroon">Elton Jothi</h2>
-                    <h3 className="ft-400 grey-30">Front End Engineer</h3>
+                    <h3 className="ft-400 grey-50">Front End Engineer</h3>
                     <p className="ft-200 grey-30">Kuala Lumpur, Malaysia</p>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ function Main() {
             <div className="row">
               <div className="col-12">
                 <h3 className="ft-600 maroon">Experience</h3>
-                <h4 className="ft-400 grey-30">
+                <h4 className="ft-400 grey-50">
                   EdgeProp.my / Frontend Engineer
                 </h4>
                 <h5 className="ft-400 grey-30">Aug 2018 - Present</h5>
@@ -97,7 +97,7 @@ function Main() {
                 </ul>
               </div>
               <div className="col-12">
-                <h4 className="ft-400 grey-30">
+                <h4 className="ft-400 grey-50">
                   OpenTech Software / Web Developer
                 </h4>
                 <h5 className="ft-400 grey-30">Nov 2016 - Aug 2018</h5>
@@ -120,7 +120,7 @@ function Main() {
                 </ul>
               </div>
               <div className="col-12">
-                <h4 className="ft-400 grey-30">
+                <h4 className="ft-400 grey-50">
                   Navodaya Media Works / Software Engineer
                 </h4>
                 <h5 className="ft-400 grey-30">Sept 2014 - Oct 2015</h5>
@@ -135,13 +135,13 @@ function Main() {
               </div>
               <div className="col-12">
                 <h3 className="ft-600 maroon">Education</h3>
-                <h4 className="ft-400 grey-30">ICAT Design & Media College</h4>
+                <h4 className="ft-400 grey-50">ICAT Design & Media College</h4>
                 <p className="ft-200 grey-30">
                   P.G Diploma in Game Development (2014)
                 </p>
               </div>
               <div className="col-12">
-                <h4 className="ft-400 grey-30">
+                <h4 className="ft-400 grey-50">
                   Vel Tech Dr.RR & Dr.SR Technical University
                 </h4>
                 <p className="ft-200 grey-30">

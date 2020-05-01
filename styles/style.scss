@@ -27,9 +27,11 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #f1f2f5;
   color: #17181a;
-  &[data-theme='dark'] {
+  min-height: 100vh;
+  .dark {
     background-color: #17181a;
     color: #e4e6eb;
+    min-height: 100vh;
     .grey-30 {
       color: $color-grey-30;
     }

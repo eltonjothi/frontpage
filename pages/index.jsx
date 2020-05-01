@@ -4,7 +4,7 @@ import { NextSeo } from 'next-seo';
 import Layout from '../components/template/Layout';
 import Main from '../components/about/Main';
 
-function HomePage() {
+function HomePage({ isDark, toggleTheme }) {
   const title = 'Home | Elton Jothi';
   const desc =
     'Experienced, Passionate, well-rounded frontend engineer with full stack capabilities and an eye for design.';
@@ -29,7 +29,7 @@ function HomePage() {
           ],
         }}
       />
-      <Layout classProp="home">
+      <Layout classProp="home" toggleTheme={toggleTheme}>
         <Main />
       </Layout>
     </>

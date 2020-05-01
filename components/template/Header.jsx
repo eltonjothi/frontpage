@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { withRouter } from 'next/router';
 
-function Header({ router }) {
+function Header({ router, toggleTheme }) {
   return (
     <>
       <nav className="navbar sticky-top navbar-expand-lg">
@@ -39,6 +39,12 @@ function Header({ router }) {
                 </Link>
               </li>
             </ul>
+            <button
+              class="btn btn-outline-success my-2 my-sm-0"
+              onClick={toggleTheme}
+            >
+              Dark
+            </button>
           </div>
           {/* <button className="btn btn-outline-success my-2 my-sm-0">dark</button> */}
         </div>

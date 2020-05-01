@@ -4,7 +4,7 @@ import { NextSeo } from 'next-seo';
 import Layout from '../components/template/Layout';
 import Main from '../components/contact/Main';
 
-function Contact() {
+function Contact({ isDark, toggleTheme }) {
   const title = 'Contact | Elton Jothi';
   const desc =
     'Experienced, Passionate, well-rounded frontend engineer with full stack capabilities and an eye for design.';
@@ -29,7 +29,7 @@ function Contact() {
           ],
         }}
       />
-      <Layout classProp="contact">
+      <Layout classProp="contact" toggleTheme={toggleTheme}>
         <Main />
       </Layout>
     </>

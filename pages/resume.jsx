@@ -4,7 +4,7 @@ import { NextSeo } from 'next-seo';
 import Layout from '../components/template/Layout';
 import Main from '../components/resume/Main';
 
-function Resume() {
+function Resume({ isDark, toggleTheme }) {
   const title = 'Resume | Elton Jothi';
   const desc =
     'Experienced, Passionate, well-rounded frontend engineer with full stack capabilities and an eye for design.';
@@ -29,7 +29,7 @@ function Resume() {
           ],
         }}
       />
-      <Layout classProp="resume">
+      <Layout classProp="resume" toggleTheme={toggleTheme}>
         <Main />
       </Layout>
     </>

@@ -82,7 +82,7 @@ function Main() {
                     page load by Server Side Rendering (SSR).
                   </li>
                   <li className="list-group-item">
-                    Developed custom server-less image handler using AWS to
+                    Developed custom serverless image handler using AWS to
                     handle watermarks and sizes.
                   </li>
                   <li className="list-group-item">

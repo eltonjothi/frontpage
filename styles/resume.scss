@@ -10,12 +10,25 @@
       padding: 20px;
       border-radius: 10px;
       margin-bottom: 10px;
+      h3{
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 8px;
+      }
     }
     .mainbox {
       background-color: #222526;
       padding: 20px;
       border-radius: 10px;
       margin-bottom: 10px;
+      h3{
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 8px;
+      }
+      h4{
+        margin-bottom: 4px;
+      }
     }
   }
   .intro {
@@ -41,12 +54,12 @@
         // margin-top: 10px;
         font-size: 24px;
         line-height: 24px;
-        margin-bottom: 4px;
+        margin-bottom: 8px;
       }
       h3 {
         font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 4px;
+        line-height: 18px;
+        margin-bottom: 8px;
       }
       p {
         margin-bottom: 0;

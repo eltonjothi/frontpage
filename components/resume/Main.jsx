@@ -70,23 +70,23 @@ function Main() {
                 <h5 className="ft-400 grey-30">Aug 2018 - Present</h5>
                 <ul className="list-group list-group-flush ft-200 grey-30">
                   <li className="list-group-item">
-                    Developed the web application from a scratch using React.
+                    Built responsive web application from a scratch using React.
                   </li>
                   <li className="list-group-item">
-                    Reducing the bundle size and lazy loading modules to improve
-                    page speed and user experience across all devices.
+                    Reduced the bundle size with code splitting and lazy load
+                    modules to improve page speed and user experience.
                   </li>
                   <li className="list-group-item">
-                    Improving the SEO performance of the website, by using SEO
-                    friendly URL’s on the listings pages and improving initial
-                    page load by Server Side Rendering (SSR).
+                    Improved the SEO performance, by using SEO friendly URL’s on
+                    the listings pages and improving initial page load by Server
+                    Side Rendering (SSR).
                   </li>
                   <li className="list-group-item">
                     Developed custom serverless image handler using AWS to
                     handle watermarks and sizes.
                   </li>
                   <li className="list-group-item">
-                    Maintaining standard code style with shareable configs using
+                    Maintained standard code style with shareable configs using
                     ESLint and Prettier within the project to improve the
                     efficiency and code readability across team.
                   </li>
@@ -103,7 +103,7 @@ function Main() {
                 <h5 className="ft-400 grey-30">Nov 2016 - Aug 2018</h5>
                 <ul className="list-group list-group-flush ft-200 grey-30">
                   <li className="list-group-item">
-                    Developed websites for small buisnesses.
+                    Built websites for small buisnesses.
                   </li>
                   <li className="list-group-item">
                     Managed hosting through AWS and helped securing the
@@ -126,7 +126,7 @@ function Main() {
                 <h5 className="ft-400 grey-30">Sept 2014 - Oct 2015</h5>
                 <ul className="list-group list-group-flush ft-200 grey-30">
                   <li className="list-group-item">
-                    Developed website portal for showcasing games using PHP.
+                    Built website portal for showcasing games using PHP.
                   </li>
                   <li className="list-group-item">
                     Developed mobile games using Cocos2d-x and Unity3D.

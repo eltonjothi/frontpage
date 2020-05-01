@@ -27,8 +27,12 @@ function Main() {
             <div className="row only-print">
               <div className="col-12">
                 <p className="ft-200 grey-30 mb-0">Email: elton.jj@gmail.com</p>
-                <p className="ft-200 grey-30 mb-0">Website: <a href="https://eltu.in/">eltu.in</a></p>
-                <p className="ft-200 grey-30">Phone: <a href="https://wa.me/60172634100">+60-172634100</a></p>
+                <p className="ft-200 grey-30 mb-0">
+                  Website: <a href="https://eltu.in/">eltu.in</a>
+                </p>
+                <p className="ft-200 grey-30">
+                  Phone: <a href="https://wa.me/60172634100">+60-172634100</a>
+                </p>
               </div>
             </div>
             <div className="row">
@@ -66,21 +70,25 @@ function Main() {
                 <h5 className="ft-400 grey-30">2018 - Present</h5>
                 <ul className="list-group list-group-flush ft-200 grey-30">
                   <li className="list-group-item">
-                    Translation of designer mock-ups and wireframes into
-                    front-end code using modern technologies.
+                    Developing the entire website from a scratch using React.
                   </li>
                   <li className="list-group-item">
-                    Pre rendering the pages by server side rendering for faster
-                    page loads.
+                    Reducing the bundle size and lazy loading modules to improve
+                    page speed and user experience across all devices.
                   </li>
                   <li className="list-group-item">
-                    Optimizing the website to improve page speed and user
-                    experience across all devices
+                    Improving the SEO performance of the website, by using SEO
+                    friendly URL’s on the listings pages and improving initial
+                    page load by Server Side Rendering (SSR).
                   </li>
                   <li className="list-group-item">
-                    Maintaining standard code style with shareable configs
-                    within the project to improve the efficiency and code
-                    readability across team.
+                    Developed a custom server-less image handler using AWS to
+                    handle watermarks and reduce the image sizes.
+                  </li>
+                  <li className="list-group-item">
+                    Maintaining standard code style with shareable configs using
+                    ESLint and Prettier within the project to improve the
+                    efficiency and code readability across team.
                   </li>
                   <li className="list-group-item">
                     Wrote support documentation and provided training to the
@@ -107,7 +115,7 @@ function Main() {
                   </li>
                   <li className="list-group-item">
                     Created custom plugins and integrated the web application
-                    with marketing solutions
+                    with marketing solutions.
                   </li>
                   <li className="list-group-item">
                     Increasing website performance using SEO best practices.
@@ -131,7 +139,7 @@ function Main() {
                     Developed mobile games using cocos2dx and unity3d.
                   </li>
                   <li className="list-group-item">
-                    Administration and management of a hosting environment
+                    Administration and management of a hosting environment.
                   </li>
                 </ul>
               </div>

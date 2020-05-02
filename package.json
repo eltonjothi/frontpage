@@ -18,7 +18,8 @@
     "next-seo": "^4.4.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

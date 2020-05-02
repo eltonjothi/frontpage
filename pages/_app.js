@@ -1,13 +1,26 @@
 import App from 'next/app';
 import React, { useState } from 'react';
+import { ThemeProvider } from 'styled-components';
 
 function MyApp({ Component, pageProps }) {
   const [isDark, setTheme] = useState(false);
   const toggleTheme = () => setTheme(!isDark);
+  const dark = {
+    colors: {
+      primary: '#fff',
+    },
+  };
+  const light = {
+    colors: {
+      primary: '#000',
+    },
+  };
   return (
-    <div className={isDark ? 'dark' : 'light'}>
-      <Component {...pageProps} isDark={isDark} toggleTheme={toggleTheme} />
-    </div>
+    <ThemeProvider theme={isDark ? dark : light}>
+      <div className={isDark ? 'dark' : 'light'}>
+        <Component {...pageProps} isDark={isDark} toggleTheme={toggleTheme} />
+      </div>
+    </ThemeProvider>
   );
 }
 

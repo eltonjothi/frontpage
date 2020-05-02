@@ -1,4 +1,11 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Title = styled.h2`
+  font-size: 1.5em;
+  text-align: left;
+  color: ${({ theme }) => theme.colors.primary};
+`;
 
 function Main() {
   return (
@@ -14,7 +21,7 @@ function Main() {
               />
             </div>
             <div className="details">
-              <h2>Hey there.! 👋</h2>
+              <Title>Hey there.! 👋</Title>
               <p className="ft-200 grey-30">
                 My name is Elton Jothi. I’m an experienced, passionate,
                 well-rounded frontend engineer with full stack capabilities and

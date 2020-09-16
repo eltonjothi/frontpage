@@ -74,7 +74,7 @@ function Main() {
                   </li>
                   <li className="list-group-item">
                     Reduced the bundle size with code splitting and lazy load
-                    modules to improve page speed and user experience.
+                    modules to improve core web vitals and user experience.
                   </li>
                   <li className="list-group-item">
                     Improved the SEO performance, by using SEO friendly URL’s on

@@ -47,7 +47,7 @@ function Main() {
               <div className="col-12">
                 <h3 className="maroon">Knowledge Base</h3>
                 <p className="ft-200 grey-30">
-                  HTML, JavaScript, CSS, React, Bootstrap, Git, Node.js, PHP
+                  HTML, JavaScript, CSS, React, Next.js, Git, Node.js, PHP
                 </p>
               </div>
             </div>

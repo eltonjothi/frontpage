@@ -47,7 +47,8 @@ function Main() {
               <div className="col-12">
                 <h3 className="maroon">Knowledge Base</h3>
                 <p className="ft-200 grey-30">
-                  HTML, CSS, JavaScript, TypeScript, React, Next.js, Git, Node.js
+                  HTML, CSS, JavaScript, TypeScript, React, Next.js, Git,
+                  Node.js
                 </p>
               </div>
             </div>
@@ -91,8 +92,8 @@ function Main() {
                     efficiency and code readability across team.
                   </li>
                   <li className="list-group-item">
-                    Wrote support documentation and provided training to the
-                    team internally.
+                    Wrote Unit Test and Integration tests With Jest and React
+                    Testing Library.
                   </li>
                 </ul>
               </div>

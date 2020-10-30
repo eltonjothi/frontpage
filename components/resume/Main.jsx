@@ -92,8 +92,7 @@ function Main() {
                     efficiency and code readability across team.
                   </li>
                   <li className="list-group-item">
-                    Wrote Unit Test and Integration tests With Jest and React
-                    Testing Library.
+                    Wrote Unit Test and Integration tests to ensure the quality of the product.
                   </li>
                 </ul>
               </div>

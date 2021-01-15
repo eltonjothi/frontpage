@@ -8,7 +8,7 @@ function Main() {
           <div className="intro-hero">
             <div className="avatar">
               <img
-                src="/images/elton-avatar-3.jpg"
+                src="/images/elton-avatar-4.jpg"
                 className="profile-avatar"
                 alt="Elton Jothi"
               />

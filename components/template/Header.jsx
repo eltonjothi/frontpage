@@ -20,11 +20,11 @@ function Header({ router }) {
               </li>
               <li
                 className={
-                  router.pathname === '/resume' ? 'nav-item active' : 'nav-item'
+                  router.pathname === '/about' ? 'nav-item active' : 'nav-item'
                 }
               >
-                <Link href="/resume">
-                  <a className="nav-link">Resume</a>
+                <Link href="/about">
+                  <a className="nav-link">About</a>
                 </Link>
               </li>
               <li
@@ -56,15 +56,15 @@ function Header({ router }) {
               Home
             </a>
           </Link>
-          <Link href="/resume">
+          <Link href="/about">
             <a
               className={
-                router.pathname === '/resume'
+                router.pathname === '/about'
                   ? 'mobile-navbar-item active'
                   : 'mobile-navbar-item'
               }
             >
-              Resume
+              About
             </a>
           </Link>
           <Link href="/contact">

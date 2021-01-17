@@ -1,4 +1,4 @@
-import '../styles/style.scss';
+// import '../styles/style.scss';
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import Layout from '../components/template/Layout';

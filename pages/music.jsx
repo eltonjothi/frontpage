@@ -3,8 +3,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import Layout from '../components/template/Layout';
 import Tracks from '../components/about/Tracks';
-
-const { API_ENDPOINT } = process.env;
+import { getTopTracks } from '../lib/spotify';
 
 function Music({ topTracks }) {
   const title = 'Home | Elton Jothi';
@@ -39,7 +38,8 @@ function Music({ topTracks }) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch(`${API_ENDPOINT}/api/top-tracks`);
+  // const res = await fetch(`${API_ENDPOINT}/api/top-tracks`);
+  const res = await getTopTracks();
   const topTracks = await res.json();
 
   if (!topTracks) {

@@ -2,10 +2,11 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import Layout from '../components/template/Layout';
-import Main from '../components/about/Main';
 import Tracks from '../components/about/Tracks';
 
-function Music({topTracks}) {
+const { API_ENDPOINT } = process.env;
+
+function Music({ topTracks }) {
   const title = 'Home | Elton Jothi';
   const desc =
     'Experienced, Passionate, well-rounded frontend engineer with full stack capabilities and an eye for design.';
@@ -38,20 +39,20 @@ function Music({topTracks}) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch(`http://localhost:3000/api/top-tracks`)
-  const topTracks = await res.json()
+  const res = await fetch(`${API_ENDPOINT}/api/top-tracks`);
+  const topTracks = await res.json();
 
   if (!topTracks) {
     return {
       notFound: true,
-    }
+    };
   }
 
   return {
     props: {
       topTracks,
     },
-  }
+  };
 }
 
 export default Music;

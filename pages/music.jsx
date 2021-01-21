@@ -52,6 +52,7 @@ export async function getStaticProps(context) {
     props: {
       topTracks,
     },
+    revalidate: 1440,
   };
 }
 

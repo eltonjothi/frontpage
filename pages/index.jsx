@@ -3,6 +3,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import Layout from '../components/template/Layout';
 import Main from '../components/about/Main';
+import Tracks from '../components/about/Tracks';
 
 function HomePage() {
   const title = 'Home | Elton Jothi';
@@ -31,6 +32,7 @@ function HomePage() {
       />
       <Layout classProp="home">
         <Main />
+        <Tracks />
       </Layout>
     </>
   );

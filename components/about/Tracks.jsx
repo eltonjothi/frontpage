@@ -10,7 +10,7 @@ function Tracks({ topTracks }) {
           <p>Here's my top tracks on Spotify updated daily.</p>
           <div className="list-group">
             {topTracksData.slice(0, 5).map((track, index) => {
-              const images = track?.album?.images?.[0]?.url ?? '';
+              const images = track?.album?.images?.[2]?.url ?? '';
               const artists = track.artists.map((_artist) => _artist.name).join(', ');
               return (
                 <a href={track.external_urls.spotify} target="_blank" className="list-group-item  list-group-item-action">

@@ -6,7 +6,7 @@ import Tracks from '../components/about/Tracks';
 import { getTopTracks } from '../lib/spotify';
 
 function Music({ topTracks }) {
-  const title = 'Home | Elton Jothi';
+  const title = 'Music | Elton Jothi';
   const desc =
     'Experienced, Passionate, well-rounded frontend engineer with full stack capabilities and an eye for design.';
   return (

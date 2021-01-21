@@ -3,8 +3,9 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import Layout from '../components/template/Layout';
 import Main from '../components/about/Main';
+import Tracks from '../components/about/Tracks';
 
-function HomePage() {
+function Music({topTracks}) {
   const title = 'Home | Elton Jothi';
   const desc =
     'Experienced, Passionate, well-rounded frontend engineer with full stack capabilities and an eye for design.';
@@ -30,10 +31,27 @@ function HomePage() {
         }}
       />
       <Layout classProp="home">
-        <Main />
+        <Tracks topTracks={topTracks} />
       </Layout>
     </>
   );
 }
 
-export default HomePage;
+export async function getStaticProps(context) {
+  const res = await fetch(`http://localhost:3000/api/top-tracks`)
+  const topTracks = await res.json()
+
+  if (!topTracks) {
+    return {
+      notFound: true,
+    }
+  }
+
+  return {
+    props: {
+      topTracks,
+    },
+  }
+}
+
+export default Music;

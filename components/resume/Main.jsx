@@ -69,30 +69,31 @@ function Main() {
                   EdgeProp.my / Frontend Engineer
                 </h4>
                 <h5 className="ft-400 grey-30">Aug 2018 - Present</h5>
-                <ul className="list-group list-group-flush ft-200 grey-30">
-                  <li className="list-group-item">
+                <ul className="ft-200 grey-30">
+                  <li>
                     Built responsive web application from a scratch using React.
                   </li>
-                  <li className="list-group-item">
+                  <li>
                     Reduced the bundle size with code splitting and lazy load
                     modules to improve core web vitals and user experience.
                   </li>
-                  <li className="list-group-item">
+                  <li>
                     Improved the SEO performance, by using SEO friendly URL’s on
                     the listings pages and improving initial page load by Server
                     Side Rendering (SSR).
                   </li>
-                  <li className="list-group-item">
+                  <li>
                     Developed custom serverless image handler using AWS to
                     handle watermarks and sizes.
                   </li>
-                  <li className="list-group-item">
+                  <li>
                     Maintained standard code style with shareable configs using
                     ESLint and Prettier within the project to improve the
                     efficiency and code readability across team.
                   </li>
-                  <li className="list-group-item">
-                    Wrote Unit Test and Integration tests to ensure the quality of the product.
+                  <li>
+                    Wrote Unit Test and Integration tests to ensure the quality
+                    of the product.
                   </li>
                 </ul>
               </div>
@@ -101,19 +102,17 @@ function Main() {
                   OpenTech Software / Web Developer
                 </h4>
                 <h5 className="ft-400 grey-30">Nov 2016 - Aug 2018</h5>
-                <ul className="list-group list-group-flush ft-200 grey-30">
-                  <li className="list-group-item">
-                    Built websites for small buisnesses.
-                  </li>
-                  <li className="list-group-item">
+                <ul className="ft-200 grey-30">
+                  <li>Built websites for small buisnesses.</li>
+                  <li>
                     Managed hosting through AWS and helped securing the
                     applications.
                   </li>
-                  <li className="list-group-item">
+                  <li>
                     Created custom plugins and integrated the web application
                     with marketing solutions.
                   </li>
-                  {/* <li className="list-group-item">
+                  {/* <li >
                     Marketing Strategies that resulted in 40% increase in sales
                     revenue.
                   </li> */}
@@ -124,13 +123,9 @@ function Main() {
                   Navodaya Media Works / Software Engineer
                 </h4>
                 <h5 className="ft-400 grey-30">Sept 2014 - Oct 2015</h5>
-                <ul className="list-group list-group-flush ft-200 grey-30">
-                  <li className="list-group-item">
-                    Built website portal for showcasing games using PHP.
-                  </li>
-                  <li className="list-group-item">
-                    Developed mobile games using Cocos2d-x and Unity3D.
-                  </li>
+                <ul className="ft-200 grey-30">
+                  <li>Built website portal for showcasing games using PHP.</li>
+                  <li>Developed mobile games using Cocos2d-x and Unity3D.</li>
                 </ul>
               </div>
               <div className="col-12">

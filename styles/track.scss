@@ -1,0 +1,25 @@
+.tracklist {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  h1{
+    font-size: 24px;
+  }
+  .list-group-item {
+    background-color: #131313;
+    padding: 0;
+    &:hover,
+    &:focus {
+      background-color: hsla(0, 0%, 100%, 0.1);
+    }
+    .track-title {
+      font-size: 16px;
+      color: #fff;
+      margin: 0;
+    }
+    .track-artists {
+      font-size: 14px;
+      color: #b3b3b3;
+      margin: 0;
+    }
+  }
+}

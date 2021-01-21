@@ -29,6 +29,15 @@ function Header({ router }) {
               </li>
               <li
                 className={
+                  router.pathname === '/music' ? 'nav-item active' : 'nav-item'
+                }
+              >
+                <Link href="/music">
+                  <a className="nav-link">Music</a>
+                </Link>
+              </li>
+              <li
+                className={
                   router.pathname === '/contact'
                     ? 'nav-item active'
                     : 'nav-item'
@@ -65,6 +74,17 @@ function Header({ router }) {
               }
             >
               About
+            </a>
+          </Link>
+          <Link href="/music">
+            <a
+              className={
+                router.pathname === '/music'
+                  ? 'mobile-navbar-item active'
+                  : 'mobile-navbar-item'
+              }
+            >
+              Music
             </a>
           </Link>
           <Link href="/contact">

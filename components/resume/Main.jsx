@@ -71,7 +71,8 @@ function Main() {
                 <h5 className="ft-400 grey-30">Aug 2018 - Present</h5>
                 <ul className="ft-200 grey-30">
                   <li>
-                    Built responsive web application from a scratch using React.
+                    Developed accessible, responsive and performant web
+                    application using React.
                   </li>
                   <li>
                     Reduced the bundle size with code splitting and lazy load

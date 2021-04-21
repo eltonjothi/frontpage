@@ -21,7 +21,7 @@ function Contact() {
           description: desc,
           images: [
             {
-              url: 'https://eltu.in/images/elton-avatar-4.jpg',
+              url: 'https://eltu.in/images/elton-avatar.jpeg',
               width: 800,
               height: 600,
               alt: 'Elton Jothi',

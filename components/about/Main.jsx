@@ -22,7 +22,7 @@ function Main() {
               </p>
               <br />
               <p className="ft-200 grey-30">
-                Currently at EdgeProp.my, building beautiful user interfaces
+                Currently at <a href="https://www.astro.com.my" target="_blank" className="astro-link">Astro</a>, building beautiful user interfaces
                 with a focus on performance and writing code with best
                 practices.
               </p>

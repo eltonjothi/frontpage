@@ -66,9 +66,18 @@ function Main() {
               <div className="col-12">
                 <h3 className="ft-600 maroon">Experience</h3>
                 <h4 className="ft-400 grey-30">
+                  Astro.com.my / Senior Associate, Front-End Web Developer
+                </h4>
+                <h5 className="ft-400 grey-30">Oct 2021 - Present</h5>
+                <ul className="ft-200 grey-30">
+                  <li>Building awesome web applications</li>
+                </ul>
+              </div>
+              <div className="col-12">
+                <h4 className="ft-400 grey-30">
                   EdgeProp.my / Frontend Engineer
                 </h4>
-                <h5 className="ft-400 grey-30">Aug 2018 - Present</h5>
+                <h5 className="ft-400 grey-30">Aug 2018 - Sept 2021</h5>
                 <ul className="ft-200 grey-30">
                   <li>
                     Developed accessible, responsive and performant web

@@ -69,9 +69,6 @@ function Main() {
                   Astro.com.my / Senior Associate, Front-End Web Developer
                 </h4>
                 <h5 className="ft-400 grey-30">Oct 2021 - Present</h5>
-                <ul className="ft-200 grey-30">
-                  <li>Building awesome web applications</li>
-                </ul>
               </div>
               <div className="col-12">
                 <h4 className="ft-400 grey-30">

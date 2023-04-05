@@ -69,6 +69,23 @@ function Main() {
                   Astro.com.my / Senior Associate, Front-End Web Developer
                 </h4>
                 <h5 className="ft-400 grey-30">Oct 2021 - Present</h5>
+                <ul className="ft-200 grey-30">
+                  <li>
+                    Develop and maintain the front-end architecture of web applications that are scalable, reliable, and high-quality
+                  </li>
+                  <li>
+                    Managing performance, setting goals, prioritising work, and balancing the capacity of the team
+                  </li>
+                  <li>
+                    Collaborate with product managers, back-end developers and designers to deliver complete solutions.
+                  </li>
+                  <li>
+                    Provide technical guidance and mentorship to junior developers and help grow their skills and abilities
+                  </li>
+                  <li>
+                    Stay up-to-date on latest industry trends, technologies, and suggest improvements to existing systems and processes
+                  </li>
+                </ul>
               </div>
               <div className="col-12">
                 <h4 className="ft-400 grey-30">

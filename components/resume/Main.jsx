@@ -47,8 +47,7 @@ function Main() {
               <div className="col-12">
                 <h3 className="maroon">Knowledge Base</h3>
                 <p className="ft-200 grey-30">
-                  HTML, CSS, JavaScript, TypeScript, React, Next.js, Git,
-                  Node.js
+                  HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Redux, Jest, Node.js, AWS
                 </p>
               </div>
             </div>
@@ -80,10 +79,10 @@ function Main() {
                     Collaborate with product managers, back-end developers and designers to deliver complete solutions.
                   </li>
                   <li>
-                    Provide technical guidance and mentorship to junior developers and help grow their skills and abilities
+                    Provide technical guidance and mentorship to junior developers and help grow their skills and abilities.
                   </li>
                   <li>
-                    Stay up-to-date on latest industry trends, technologies, and suggest improvements to existing systems and processes
+                    Facilitate scrum and agile ceremonies such as sprint planning, daily stand-ups, sprint reviews, and retrospectives.
                   </li>
                 </ul>
               </div>

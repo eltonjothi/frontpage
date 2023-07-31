@@ -73,6 +73,9 @@ function Main() {
                     Develop and maintain the front-end architecture of web applications that are scalable, reliable, and high-quality
                   </li>
                   <li>
+                    Facilitate scrum and agile ceremonies such as sprint planning, daily stand-ups, sprint reviews, and retrospectives.
+                  </li>
+                  <li>
                     Managing performance, setting goals, prioritising work, and balancing the capacity of the team
                   </li>
                   <li>
@@ -80,9 +83,6 @@ function Main() {
                   </li>
                   <li>
                     Provide technical guidance and mentorship to junior developers and help grow their skills and abilities.
-                  </li>
-                  <li>
-                    Facilitate scrum and agile ceremonies such as sprint planning, daily stand-ups, sprint reviews, and retrospectives.
                   </li>
                 </ul>
               </div>

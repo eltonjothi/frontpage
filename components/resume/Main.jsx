@@ -130,10 +130,10 @@ function Main() {
                     Managed hosting through AWS and helped securing the
                     applications.
                   </li>
-                  <li>
+                  {/* <li>
                     Created custom plugins and integrated the web application
                     with marketing solutions.
-                  </li>
+                  </li> */}
                   {/* <li >
                     Marketing Strategies that resulted in 40% increase in sales
                     revenue.

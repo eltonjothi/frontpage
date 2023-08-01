@@ -38,8 +38,7 @@ function Main() {
             <div className="row">
               <div className="col-12">
                 <p className="ft-200 grey-30">
-                  Experienced, passionate, well-rounded frontend engineer with
-                  full stack capabilities and an eye for design.
+                  Over 8 years of experience in web development with full stack capabilities and has a passion for web performance, accessibility and seo
                 </p>
               </div>
             </div>

@@ -147,7 +147,6 @@ function Main() {
                 <h5 className="ft-400 grey-30">Sept 2014 - Oct 2015</h5>
                 <ul className="ft-200 grey-30">
                   <li>Built website portal for showcasing games using PHP.</li>
-                  <li>Developed mobile games using Cocos2d-x and Unity3D.</li>
                 </ul>
               </div>
               <div className="col-12">
